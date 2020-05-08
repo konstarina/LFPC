@@ -1,25 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# fa = { # Hardcode. Like rock... but code.
-# 	'S':{ 
-# 		'a':'B'
-# 	},
-# 	'B':{ 
-# 		'b':'S',
-# 		'a':'C',
-# 		'c':'Z'
-# 	},
-# 	'C':{ 
-# 		'b':'D'
-# 	},
-# 	'D':{ 
-# 		'c':'Z',
-# 		'a':'C'
-# 	}
-# }
-
-rules = [ # Proper hardcode
+rules = [
 	'S-aB',
 	'B-bS',
 	'B-aC',
