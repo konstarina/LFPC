@@ -1,6 +1,6 @@
 import pandas as pd
 
-rules = [ # Proper hardcode
+rules = [
 	'A-a-B',
 	'B-c-B',
 	'B-b-C',
