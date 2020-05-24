@@ -1,0 +1,11 @@
+variable result1;
+variable first = 1;
+variable second = 2;
+
+string example = "hello world";
+
+for i from 1 to 100
+    result1 = pow(i, 2) + sqrt(i);
+
+function sum(num 1, num 2)
+	variable sumOftwo = num1 + num 2;
